@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wss-app
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wss-ap
+  template:
+    metadata:
+      labels:
+        app: wss-ap
+    spec:
+      containers:
+      - name: wss-app
+        image: 
+        ports:
+        - containerPort: 80
