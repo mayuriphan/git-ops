@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: wss-app
-        image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/wss-app:6b70054c9dc64eade4b9b439a7f7b226b0691592
+        image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/wss-app:222069b2cfdd1896864b4ef6f380aec6a5d5f6f2
         ports:
         - containerPort: 80
