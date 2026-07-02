@@ -24,7 +24,7 @@ git-ops
 │  │  ├─ namespace.yaml
 │  │  └─ worker
 │  │     ├─ kustomization.yaml
-│  │     └─ workerr-deployment.yaml
+│  │     └─ worker-deployment.yaml
 │  └─ wss-app
 │     ├─ deployment.yaml
 │     └─ service.yaml
