@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: idp
+
+resources:
+  - namespace.yaml
+  - config
+  - api
+  - worker
+  - ingress
