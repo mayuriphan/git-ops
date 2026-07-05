@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: idp-api:latest
+          image: idp-api:cf8bed1
           ports:
             - containerPort: 8000
           envFrom:
