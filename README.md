@@ -18,7 +18,7 @@ git-ops
 │  │  │  ├─ kustomization.yaml
 │  │  │  └─ secret.yaml
 │  │  ├─ ingress
-│  │  │  ├─ ingres.yaml
+│  │  │  ├─ ingress.yaml
 │  │  │  └─ kustomization.yaml
 │  │  ├─ kustomization.yaml
 │  │  ├─ namespace.yaml
@@ -35,10 +35,8 @@ git-ops
    │  ├─ ingress.yaml
    │  └─ kustomization.yaml
    └─ monitoring
-      ├─ grafana
-      │  └─ grafana.yaml
+      ├─ grafana.yaml
       ├─ kustomization.yaml
-      └─ prometheus
-         └─ prometheus.yaml
+      └─ prometheus.yaml
 
 ```
