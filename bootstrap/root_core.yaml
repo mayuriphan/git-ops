@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/mayuriphan/git-ops.git
     targetRevision: main
-    path: applications/core
+    path: applications
 
   destination:
     server: https://kubernetes.default.svc

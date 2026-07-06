@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/mayuriphan/git-ops.git
     targetRevision: main
-    path: platform
+    path: platform/argocd
 
   destination:
     server: https://kubernetes.default.svc
