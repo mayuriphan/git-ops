@@ -12,6 +12,8 @@ spec:
       labels:
         app: idp-worker
     spec:
+      imagePullSecrets:
+        - name: ecr-secret
       containers:
         - name: worker
           image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-worker:522996a
