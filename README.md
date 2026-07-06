@@ -4,7 +4,6 @@ git-ops
 ├─ README.md
 ├─ applications
 │  ├─ idp.yaml
-│  ├─ monitoring.yaml
 │  └─ platform.yaml
 ├─ apps
 │  ├─ idp
@@ -29,7 +28,11 @@ git-ops
 │     ├─ deployment.yaml
 │     └─ service.yaml
 ├─ bootstrap
-│  └─ root.yaml
+│  ├─ root_core.yaml
+│  ├─ root_monitoring.yaml
+│  └─ root_platform.yaml
+├─ monitoring
+│  └─ monitoring.yaml
 └─ platform
    ├─ argocd
    │  ├─ ingress.yaml
