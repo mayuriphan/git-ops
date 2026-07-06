@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-worker:a992988
+          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-worker:e09ccce
           envFrom:
             - configMapRef:
                 name: idp-config

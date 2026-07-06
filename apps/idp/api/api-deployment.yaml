@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-api:a992988
+          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-api:e09ccce
           ports:
             - containerPort: 8000
           envFrom:
