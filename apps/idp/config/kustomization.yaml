@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   - configmap.yaml
   - secretstore.yaml
-  - external_secrets.yaml
+  - externalsecrets.yaml
