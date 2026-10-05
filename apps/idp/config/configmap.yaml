@@ -4,5 +4,4 @@ metadata:
   name: idp-config
 data:
   APP_NAME: "idp-service-broker"
-  RATE_LIMIT_PER_MINUTE: "60"
   AWS_REGION: "ap-south-1"
