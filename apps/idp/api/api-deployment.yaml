@@ -16,7 +16,7 @@ spec:
         - name: ecr-secret
       containers:
         - name: api
-          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-api:1f13a3e
+          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-api:68baccf
           ports:
             - containerPort: 8000
           envFrom:
