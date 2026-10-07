@@ -16,7 +16,7 @@ spec:
         - name: ecr-secret
       containers:
         - name: worker
-          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-worker:ce8375a
+          image: 187457215475.dkr.ecr.ap-south-1.amazonaws.com/idp-worker:ff06fcb
           envFrom:
             - configMapRef:
                 name: idp-config
